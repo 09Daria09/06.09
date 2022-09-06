@@ -35,5 +35,10 @@ public:
 };
 int main()
 {
-
+	Point obj1(5, 6);
+	obj1.SetX(5);
+	obj1.GetX();
+	obj1.SetY(6);
+	obj1.GetX();
+	obj1.Print();
 }
