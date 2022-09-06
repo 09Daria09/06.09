@@ -57,4 +57,5 @@ int main()
 	obj1.Print();
 	Copy obj2(3);
 	obj2.Add(3);
+	Copy obj4(8);
 }
