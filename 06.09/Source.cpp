@@ -42,4 +42,9 @@ int main()
 	obj1.SetY(6);
 	obj1.GetX();
 	obj1.Print();
+	Copy obj2(3);
+	obj2.Add(3);
+	Point obj3(3, 4);
+	cout << "!!!";
+	cout << "Master";
 }
