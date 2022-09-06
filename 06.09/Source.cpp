@@ -59,4 +59,5 @@ int main()
 	obj2.Add(3);
 	Point obj3(3, 4);
 	cout << "!!!";
+	Copy obj4(8);
 }
