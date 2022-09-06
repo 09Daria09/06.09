@@ -33,6 +33,10 @@ public:
 		cout << "Y = " << y << endl;
 	}
 };
+class Copy
+{
+
+};
 int main()
 {
 	Point obj1(5, 6);
