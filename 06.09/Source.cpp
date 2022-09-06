@@ -35,7 +35,13 @@ public:
 };
 class Copy
 {
-
+private:
+	int a;
+public:
+	void Add(int a1)
+	{
+		a *= a1;
+	}
 };
 int main()
 {
