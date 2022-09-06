@@ -38,6 +38,10 @@ class Copy
 private:
 	int a;
 public:
+	Copy(int a1)
+	{
+		a = a1;
+	}
 	void Add(int a1)
 	{
 		a *= a1;
@@ -51,4 +55,6 @@ int main()
 	obj1.SetY(6);
 	obj1.GetX();
 	obj1.Print();
+	Copy obj2(3);
+	obj2.Add(3);
 }
