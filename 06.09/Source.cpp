@@ -45,6 +45,7 @@ public:
 	void Add(int a1)
 	{
 		a *= a1;
+		cout << "New";
 	}
 };
 int main()
@@ -60,4 +61,5 @@ int main()
 	Copy obj4(8);
 	Point obj3(3, 4);
 	cout << "!!!";
+	cout << "New";
 }
