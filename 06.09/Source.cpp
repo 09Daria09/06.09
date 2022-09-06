@@ -33,20 +33,7 @@ public:
 		cout << "Y = " << y << endl;
 	}
 };
-class Copy
-{
-private:
-	int a;
-public:
-	Copy(int a1)
-	{
-		a = a1;
-	}
-	void Add(int a1)
-	{
-		a *= a1;
-	}
-};
+
 int main()
 {
 	Point obj1(5, 6);
@@ -55,9 +42,4 @@ int main()
 	obj1.SetY(6);
 	obj1.GetX();
 	obj1.Print();
-	Copy obj2(3);
-	obj2.Add(3);
-	Point obj3(3, 4);
-	cout << "!!!";
-	Copy obj4(8);
 }
