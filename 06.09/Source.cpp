@@ -19,6 +19,14 @@ public:
 	{
 		x = x1;
 	}
+	int GetY()
+	{
+		return y;
+	}
+	void SetY(int y1)
+	{
+		y = y1;
+	}
 };
 int main()
 {
