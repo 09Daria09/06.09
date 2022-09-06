@@ -27,6 +27,11 @@ public:
 	{
 		y = y1;
 	}
+	void Print()
+	{
+		cout << "X = " << x << endl;
+		cout << "Y = " << y << endl;
+	}
 };
 int main()
 {
