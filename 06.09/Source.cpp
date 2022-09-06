@@ -33,6 +33,20 @@ public:
 		cout << "Y = " << y << endl;
 	}
 };
+class Copy
+{
+private:
+	int a;
+public:
+	Copy(int a1)
+	{
+		a = a1;
+	}
+	void Add(int a1)
+	{
+		a *= a1;
+	}
+};
 
 int main()
 {
